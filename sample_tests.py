@@ -28,6 +28,7 @@ def test_div_by_zero():
     with pytest.raises(ZeroDivisionError):
         sample_functions.div(num1, num2)
 
+
 #Create separate and independent test cases
 #For instance, avoid this:
 def test_div2():
